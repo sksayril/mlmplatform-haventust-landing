@@ -62,15 +62,21 @@ export default function Layout() {
 
           {/* Buttons */}
           <div className="flex items-center gap-4">
-            <button className="px-5 py-2 rounded-lg text-xs font-bold text-slate-300 border border-slate-700/80 hover:text-white hover:border-[#E6B044]/50 transition-all duration-300">
+            <a
+              href="https://app.haventust.in/"
+              className="px-5 py-2 rounded-lg text-xs font-bold text-slate-300 border border-slate-700/80 hover:text-white hover:border-[#E6B044]/50 transition-all duration-300"
+            >
               Login
-            </button>
-            <button className="flex items-center gap-2 px-5 py-2.5 rounded-lg text-xs font-bold bg-gradient-to-r from-[#E6B044] to-[#F3C562] text-slate-950 hover:brightness-110 shadow-lg shadow-[#E6B044]/20 transition-all duration-300 active:scale-95">
+            </a>
+            <a
+              href="https://app.haventust.in/"
+              className="flex items-center gap-2 px-5 py-2.5 rounded-lg text-xs font-bold bg-gradient-to-r from-[#E6B044] to-[#F3C562] text-slate-950 hover:brightness-110 shadow-lg shadow-[#E6B044]/20 transition-all duration-300 active:scale-95"
+            >
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
               </svg>
               Register Now
-            </button>
+            </a>
           </div>
         </div>
       </header>
