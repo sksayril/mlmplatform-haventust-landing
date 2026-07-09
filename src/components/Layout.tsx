@@ -63,6 +63,17 @@ export default function Layout() {
           {/* Buttons */}
           <div className="flex items-center gap-4">
             <a
+              href="/haventust-business-plan.pdf"
+              download="Haventust_Business_Plan.pdf"
+              className="flex items-center gap-1.5 px-3 sm:px-4 py-2 rounded-lg text-xs font-bold text-[#E6B044] border border-[#E6B044]/40 hover:bg-[#E6B044]/10 transition-all duration-300 cursor-pointer"
+              title="Download Business Plan PDF"
+            >
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              <span className="hidden sm:inline">Download PDF</span>
+            </a>
+            <a
               href="https://app.haventust.in/"
               className="px-5 py-2 rounded-lg text-xs font-bold text-slate-300 border border-slate-700/80 hover:text-white hover:border-[#E6B044]/50 transition-all duration-300"
             >

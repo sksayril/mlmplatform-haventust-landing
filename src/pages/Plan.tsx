@@ -119,8 +119,18 @@ export default function Plan() {
         </div>
       </div>
 
-      <div className="mt-12 flex justify-center">
-        <button className="px-10 py-4 rounded-2xl font-bold bg-[#E6B044] text-slate-950 hover:brightness-110 shadow-[0_4px_25px_rgba(230,176,68,0.45)] hover:shadow-[0_4px_30px_rgba(230,176,68,0.6)] transition-all duration-300 flex items-center gap-2 active:scale-98">
+      <div className="mt-12 flex flex-col sm:flex-row justify-center items-center gap-4">
+        <a 
+          href="/haventust-business-plan.pdf"
+          download="Haventust_Business_Plan.pdf"
+          className="px-10 py-4 rounded-2xl font-bold bg-[#E6B044] text-slate-950 hover:brightness-110 shadow-[0_4px_25px_rgba(230,176,68,0.45)] hover:shadow-[0_4px_30px_rgba(230,176,68,0.6)] transition-all duration-300 flex items-center gap-2 active:scale-98 cursor-pointer"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+          </svg>
+          Download Business Plan PDF
+        </a>
+        <button className="px-10 py-4 rounded-2xl font-bold border border-[#E6B044]/40 text-[#E6B044] hover:bg-[#E6B044]/5 transition-all duration-300 flex items-center gap-2 active:scale-98">
           View Full Plan Details
           <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
